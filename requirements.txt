@@ -41,4 +41,3 @@ tgcrypto
 unidecode
 wget
 youtube-search-python==1.6.6
-git+https://github.com/CertifiedCoders/youtube-search-python
