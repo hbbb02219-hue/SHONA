@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID", 35619518))
+API_HASH = getenv("API_HASH", "ea754c50685a3da88c163b0172ecd888")
+BOT_TOKEN = getenv("8544344895:AAEJyqkdVG-wNUnWLmK_upGlZtITSJYoZiU")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+OWNER_ID = int(getenv("OWNER_ID", 8406660209))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "JCDMODX")
+BOT_USERNAME = getenv("BOT_USERNAME", "JCDXMUSICBOT")
+BOT_NAME = getenv("BOT_NAME", "𝗝𝗖𝗗 𝗫 𝗠𝗨𝗦𝗜𝗖")
+ASSUSERNAME = getenv("ASSUSERNAME", "JCDM0D")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003393489316))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -46,8 +46,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ganaasupport")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+BdXGr4nsBI80YjI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/JCDLIKE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+tdUDZp7ZEbA1Yjhl")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
